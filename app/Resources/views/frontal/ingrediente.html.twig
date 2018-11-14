@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+{% block titulo %}Descripcion de ingrediente{% endblock %}
+{% block contenido %}
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <h1 class="mt-4 mb-3">{{ingrediente.nombre}}</h1>
+
+
+  <!-- Portfolio Item Row -->
+  <div class="row">
+
+
+    <div class="col-md-4">
+      <h3 class="my-3">Nombre</h3>
+      <p>{{ingrediente.nombre}}</p>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+
+</div>
+<!-- /.container -->
+{% endblock %}
